@@ -7,3 +7,6 @@ The main goal is to build a system trained on news dataset that should be able t
 2. Tokenize and create TF-IDF weight of whole dataset
 3. Check against TF-IDF from trained dictionary
 4. Calculate cosine similarity( between document and query)
+
+## Backend
+Flask was used to deploy this as a webservice where a title/subject is returned to a get API request.
